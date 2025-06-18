@@ -410,10 +410,8 @@ def temp():
 print("9. creat a list of square of numbers from 1 to 10")
 print([i**2 for i in range(1,11)])
 
-
 print("10. creat a list of numbers from 100 to 10 in step of -10 using range")
 print(list(range(100,9,-10)))
- 
 
 print("11. create 'range() to generate a list of first 10 positive integer")
 print(list(range(1,11)))
@@ -427,13 +425,11 @@ print(list(range(50,61,1)))
 print("14. generate a list of negative even number from -1 to -20 using 'range()")
 print (list(range(-2,-21,-2 )))
 
-
 print("15. use range() to creat3e a list of number from 0 to 100, stepping by 25")
 print (list(range(0,101,25 )))
 
 print("16. create a list of numbers from 5 to 15 using range()")
 print(list(range(5,16)))
-
 
 print("17. generate a list of number from 1 to 10, but only include multiples of 2 or 3 using 'range()' and list comprehension.")
 print ([ i for i in range(0,10) if i%2 ==0 or i%3==0])
