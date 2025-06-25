@@ -442,5 +442,3 @@ print([ i for i in range(1,101) if i%5 ==0 and i%3 !=0])
 
 print("20. use range() to generate a list of the first 10 perfect squares")
 print([i**2 for i in range(1,11)])
-
-print("test")
