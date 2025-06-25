@@ -55,8 +55,22 @@ def b():
 
 
 #case 4: load module based on sub-folder name
-from util import a, b, x, COLOR
+# from util import a, b, x, COLOR
 
+# a()
+# b()
+# print(COLOR, x)
+
+#case 4.1 
+from util import *
 a()
 b()
-print(COLOR, x)
+print(COLOR)
+
+#========================
+#input
+name = input('please input your name:')
+print (name)
+age = input("please input your age:")
+age = float(age) *365.25
+print(age)

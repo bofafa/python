@@ -3,4 +3,7 @@
 print("__init__ is a trigger")
 
 COLOR = 'red'  
+
+#case 4
 from .test1 import a, b, x
+__all__ = ['a','COLOR'] #only give out a and COLOR
