@@ -442,3 +442,59 @@ print([ i for i in range(1,101) if i%5 ==0 and i%3 !=0])
 
 print("20. use range() to generate a list of the first 10 perfect squares")
 print([i**2 for i in range(1,11)])
+
+
+print("-------truthy value---------")
+if 0:
+    print("truth")
+elif 1:
+    print("second true")
+else: 
+    print("false")
+
+print("-------fuction---------")
+def a():
+    print ("hello")
+
+#nothing happen because we didnt call the fuction
+
+a() # hello, after call fuction, it print hello
+
+print("-------fuction 2---------")
+def a(x):
+    x = 1 # fuction has an arguments, call fuction must have arguments
+    print("hello")
+a(x)
+
+print("-------fuction 3---------")
+def a(x=1): # another way to put the arguments
+    print("hello")
+a(x)
+
+print("-------fuction 3---------")
+def a(x=1): # another way to input arguments
+    x=2
+    print("hello")
+a(x)
+
+
+print("-------if--------")
+if 10 + 1 ==11:
+    print("hello")
+else:
+    print("false")
+
+
+print("-------if not--------")
+if not 1 == 11: # == go first, 11= 1 -> flase -> "not" flase -> truth -> print hello  
+    print("hello")
+else:
+    print("flase")
+
+
+print("------true or flase-------")
+y = 6
+x =(y != 10) # y not = 10 -> true
+print(x) #true
+
+print(list(range(1, 11, 2)))
